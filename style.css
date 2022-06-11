@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;600&display=swap');
+
+body {
+    background-color: rgb(00, 00, 00);
+    font-family: 'IBM Plex Sans', sans-serif;
+
+
+
+}
+
+.container {
+    
+    width: 1280px;
+    height: 720px;
+    margin: 0 auto;
+
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.img-logo {
+    width: 229px;
+    height: 68px;
+
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+
+
+}
+
+.title-main {
+    Width: 334px;
+    height: 42px;
+    font-weight: 600;
+    font-size: 32px;
+    color: rgba(255, 255, 255, 1);
+
+
+}
+
+.perfis-flex {
+    max-width: 700px;
+    margin-top: 61px;
+    margin-bottom: 95px;
+    display: flex;
+    flex-direction: row;
+    gap: 26px;
+
+}
+
+.img-perfil {
+    width: 160px;
+    height: 160px;
+    border-radius: 10px;
+
+}
+
+.perfil-text {
+    text-align: center;
+    color: rgba(156, 156, 156, 1);
+}
+
+.adc-perfil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 160px;
+    height: 160px;
+    border-radius: 10px;
+    border: solid rgba(30, 30, 32, 1);
+
+
+}
+
+.adc-perfil1 {
+
+    width: 54px;
+    height: 54px;
+    border-radius: 54px;
+    border: solid #6F6F70;
+
+
+}
+
+.adc-perfil2 {
+    border: solid #6F6F70;
+    transform: rotate(90deg);
+    width: 21.56px;
+    margin-top: 20px;
+    margin-left: 11px;
+
+
+}
+
+.adc-perfil3 {
+    border: solid #6F6F70;
+    width: 21.56px;
+    margin-left: 11px;
+    transform: translateY(-80%);
+
+}
+
+.ger-perfis {
+    width: 206px;
+    height: 50px;
+    border-radius: 8px;
+    border: 2px solid #ffffff;
+    background-color: black;
+    color: rgba(255, 255, 255, 1)
+}
+
+.img-perfil:hover {
+    border: solid rgba(255, 255, 255, 1);
+
+}
+.perfil:hover p{
+    filter: brightness(3);
+}
+
+
+.adc-perfil:hover {
+    border: solid rgba(255, 255, 255, 1);
+}
+
+.ger-perfis:hover {
+    background-color: white;
+    color: black;
+
+}
