@@ -48,6 +48,7 @@ body {
 
 }
 
+
 .perfis-flex {
     max-width: 700px;
     margin-top: 61px;
@@ -57,9 +58,14 @@ body {
     gap: 26px;
 
 }
+.perfil{
+    max-width: 160px;
+    max-height: 218px;
+    
+}
 
 .img-perfil {
-    width: 160px;
+    max-width: 160px;
     height: 160px;
     border-radius: 10px;
 
@@ -122,18 +128,21 @@ body {
     color: rgba(255, 255, 255, 1)
 }
 
-.img-perfil:hover {
+.perfil:hover img{
     border: solid rgba(255, 255, 255, 1);
+    
 
 }
 .perfil:hover p{
     filter: brightness(3);
+    
 }
 
 
-.adc-perfil:hover {
+.perfil:hover div{
     border: solid rgba(255, 255, 255, 1);
 }
+
 
 .ger-perfis:hover {
     background-color: white;
